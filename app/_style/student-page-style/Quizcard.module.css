@@ -35,3 +35,18 @@
     background-color: rgb(192, 234, 192);
     color:black
 }
+
+.shortAnswer{
+    margin-top: 1rem;
+    height: 4rem;
+    width: 87vw;
+    color:black;
+    font-size: 1.8rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}

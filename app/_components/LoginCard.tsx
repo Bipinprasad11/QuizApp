@@ -17,7 +17,7 @@ export default function LoginCard() {
         learning experiences.
       </p>
 
-      <button className={styles.button} onClick={handleSignin}>Sign In</button>
+      <button className={styles.button} onClick={handleSignin}>Sign Up</button>
     </div>
   );
 }
