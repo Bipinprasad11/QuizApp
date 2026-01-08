@@ -1,0 +1,36 @@
+.text{
+    margin-left : 15px; 
+    padding: 30px;
+}
+
+.textLine1{
+    font-size: 3rem;
+    color: black;
+    margin: 10px;
+}
+
+.textLine2{
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.manageText{
+    font-size: 2.5rem;
+    color: black;
+}

@@ -1,0 +1,22 @@
+.text{
+    margin-left : 15px; 
+    padding: 30px;
+}
+
+.textLine1{
+    font-size: 3rem;
+    color: black;
+    margin: 10px;
+}
+
+.textLine2{
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

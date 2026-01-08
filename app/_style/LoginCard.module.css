@@ -1,0 +1,45 @@
+/* Container */
+.container {
+  width: 95vw;
+  margin: 2rem auto;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  max-width: 700px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #e5e7eb;
+}
+
+
+.button {
+  background-color: white;
+  color: #008CBA;
+
+  border: none;
+  border-radius: 12px;
+  padding: 0.75rem 2rem;
+
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}

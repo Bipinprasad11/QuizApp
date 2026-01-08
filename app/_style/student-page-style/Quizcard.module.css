@@ -1,0 +1,37 @@
+.quesContainer{
+    height: auto;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 1rem;
+}
+
+.question {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.ans{
+    height: auto;
+    width: 90vw;
+    color:grey;
+    font-size: 1.8rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.active{
+    border: 1px solid green;
+    background-color: rgb(192, 234, 192);
+    color:black
+}

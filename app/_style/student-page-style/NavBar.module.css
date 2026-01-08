@@ -1,0 +1,54 @@
+.container {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textLine1 {
+  color: black;
+  font-size: 2rem;
+}
+
+.textLine2 {
+  color: grey;
+  font-size: 1rem;
+}
+
+.textColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.textColumn p{
+    padding-top: 10px;
+}
+.button {
+  border: none;
+  border-radius: 12px;
+  padding: 0.75rem 2rem;
+
+  color: aliceblue;
+  background-color: #008cba;
+
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+
+

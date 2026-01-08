@@ -1,0 +1,106 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin:2rem;
+    padding: 1rem;
+    width: 95vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 1rem;
+}
+
+.alignment{
+    height: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 2rem;
+   color: #d32f2f;
+}
+
+.progressStat{
+    color: grey;
+}
+
+.progressBar{
+    width: 90vw;
+    height: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #eace70, #ff7e5f);
+  width: 0%;
+  transition: width 0.4s ease-in-out;
+  border-radius: inherit;
+}
+
+.buttonsContainer{
+    width:95vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.buttons{
+  border: none;
+  border-radius: 12px;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.save{
+  border: none;
+  border-radius: 12px;
+  padding: 0.75rem 2rem;
+  color: aliceblue;
+  background-color: #008cba;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.submit{
+  border: none;
+  border-radius: 12px;
+  padding: 0.75rem 2rem;
+  color: aliceblue;
+  background-color: #008cba;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.align{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

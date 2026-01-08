@@ -1,0 +1,89 @@
+.text{
+    width: 95vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 2.5rem;
+}
+
+.textLine1{
+    font-size: 3rem;
+    color: black;
+}
+
+.textLine2{
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 25vh;
+    width: 95vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    margin: 3rem;
+    background: linear-gradient(135deg, #4f46e5, #9333ea);
+}
+
+.textLine11{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.textLine22{
+    font-size: 1.3rem;
+    color: whitesmoke;
+}
+
+.startContainer{
+    height: 40vh;
+    width: 95vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.startText1{
+    font-size: 2rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.startText2{
+    font-size: 1rem;
+    color: gray;
+    padding-bottom: 1rem;
+}
+
+.startButton{
+    border: none;
+  border-radius: 12px;
+  padding: 0.75rem 2rem;
+
+  color: aliceblue;
+  background-color: #008cba;
+
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}

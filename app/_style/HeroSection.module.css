@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.textLine1{
+    color : black;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.textLine2{
+    color: gray;
+    font-size: 1.5rem;
+    
+}
+
+.roleText{
+    color: black;
+    font-size: 3rem;
+}

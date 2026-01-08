@@ -1,0 +1,103 @@
+/* Overlay – center modal */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1000;
+}
+
+/* Modal box */
+.modal {
+  background: #ffffff;
+  width: 420px;
+  max-width: 90%;
+  padding: 28px 32px;
+  border-radius: 14px;
+  outline: none;
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.15),
+    0 4px 10px rgba(0, 0, 0, 0.08);
+
+  animation: scaleIn 0.2s ease-out;
+}
+
+/* Title */
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+/* Message text */
+.confirmText {
+  font-size: 15px;
+  color: #4b5563;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+/* Button container */
+.confirmActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+/* Cancel button */
+.cancelBtn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #f3f4f6;
+  color: #374151;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.cancelBtn:hover {
+  background: #e5e7eb;
+}
+
+.cancelBtn:active {
+  transform: scale(0.97);
+}
+
+
+.confirmBtn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #ef4444;
+  color: white;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.confirmBtn:hover {
+  background: #dc2626;
+}
+
+.confirmBtn:active {
+  transform: scale(0.97);
+}
+
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height:70vh;
+    width: 100%;
+    padding: 30vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.backButton{
+  border: none;
+  border-radius: 12px;
+  padding: 0.75rem 2rem;
+
+  color: aliceblue;
+  background-color: #008cba;
+
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}

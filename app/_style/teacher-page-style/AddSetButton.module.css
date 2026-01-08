@@ -1,0 +1,27 @@
+.container {
+  height: 55px;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  gap: 1vw;
+  margin-bottom: 1rem;
+}
+
+.addButton {
+  height: 40px;
+  width: 31.5vw;
+
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.active {
+  border: 1px solid black;
+  background-color: #008cba;
+  color: aliceblue;
+}

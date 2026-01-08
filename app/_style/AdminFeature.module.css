@@ -1,0 +1,36 @@
+.text{
+    text-align: center;
+    margin: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.featureCard{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgray solid;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.featureIcon{
+    font-size: 3rem;
+}
+
+.textLine1{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.textLine2{
+    font-size: 1rem;
+    color:gray;
+}

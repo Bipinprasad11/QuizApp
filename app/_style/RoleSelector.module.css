@@ -1,0 +1,52 @@
+.title{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.admin{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgray solid;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 30px;
+}
+
+.admin2{
+    border: 2px solid blue;
+    /* width: 100vw; */
+    /* transition: all 0.5ms ease; */
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teacher{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgray solid;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.student{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgray solid;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 30px;
+}

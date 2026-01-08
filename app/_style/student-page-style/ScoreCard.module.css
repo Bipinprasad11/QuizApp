@@ -1,0 +1,33 @@
+.container{
+    height: auto;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border: 1px solid Black;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.answer{
+    font-size: 1.5rem;
+    margin-bottom: .5rem    
+}
+
+.correct{
+    border: 1px solid green;
+    background-color: rgb(192, 234, 192);
+}
+
+.wrong{
+    border: 1px solid red;
+    background-color: rgb(241, 193, 193);
+}
