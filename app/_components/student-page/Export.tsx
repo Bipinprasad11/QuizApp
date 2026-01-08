@@ -5,9 +5,10 @@ import { useRouter } from "next/navigation";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 import React from "react";
+import { RefObject } from "react";
 
 interface ExportProps {
-  pdfRef: React.RefObject<HTMLDivElement>;
+  pdfRef: RefObject<HTMLDivElement | null>;
 }
 
 export default function Export({ pdfRef }: ExportProps) {

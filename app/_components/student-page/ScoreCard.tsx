@@ -5,7 +5,7 @@ import styles from "@/app/_style/student-page-style/ScoreCard.module.css";
 type ScoreCardData = {
   question: string;
   correctAnswer: string;
-  selectedAnswer: string | null;
+  selectedAnswer: string | undefined;
 };
 
 interface ScoreCardProps {

@@ -4,7 +4,10 @@ import { useState } from "react";
 import Modal from "react-modal";
 import styles from "@/app/_style/teacher-page-style/AddQuestionModal.module.css";
 import toast from "react-hot-toast";
-import { QuestionType } from "../_types/Question";
+import type {
+  QuestionType,
+  QuestionStore,
+} from "../_types/Question";
 
 if (typeof window !== "undefined") {
   Modal.setAppElement("body");
