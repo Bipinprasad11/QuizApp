@@ -4,7 +4,7 @@ import { useState} from "react";
 import styles from "@/app/_style/teacher-page-style/NavBar.module.css";
 import Image from "next/image";
 
-export default function NavBar() {
+export default function NavBar(){
   const router = useRouter();
   
   const [userName] = useState(() => {
